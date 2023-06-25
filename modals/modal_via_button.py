@@ -24,3 +24,5 @@ async def on_ready():
 @client.command(description="Command to send modal")
 async def sendmodal(ctx):
     await ctx.respond(view=ModalButton())
+
+client.run("token")

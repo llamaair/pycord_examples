@@ -20,3 +20,5 @@ async def on_ready():
 async def sendmodal(ctx):
     modal = MyModal(title="Modal via Slash Command") 
     await ctx.send_modal(modal)
+
+client.run("token")
